@@ -1,0 +1,92 @@
+
+body {
+	background: #fcfcfc;
+	font-family: 'Oxygen', sans-serif;
+}
+
+h2 {
+	font-size: 20px;
+}
+
+#wrapper {
+	margin-left: auto;
+	margin-right: auto;
+	border: 1px solid #e5e5e5;
+	background: #fff;
+	width: 1000px;
+	box-shadow: 3px 3px 5px #e5e5e5;
+	padding: 10px;
+}
+
+
+#content {
+	clear: both;
+	padding-top: 20px;
+}
+
+#group_member {
+	border: 1px solid #e5e5e5;
+	padding: 5px;
+	margin-bottom: 10px;
+}
+
+#footer {
+	border-top: 1px solid #e5e5e5;
+	margin: 10px;
+	passing: 10px;
+	clear: both;
+}
+
+#footer p {
+	font-size: 10px;
+}
+
+.tab-wrapper {
+	text-align: center;
+}
+
+.tab {
+  overflow: hidden;
+  border: 1px solid #ccc;
+  background-color: #f1f1f1;
+  display: inline-block; 
+}
+
+.tab button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+}
+
+.tab button:hover {
+  background-color: #ddd;
+}
+
+.tab button.active {
+  background-color: #ccc;
+}
+
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border 1px solid #ccc;
+  border-top: none;
+}
+
+.tabcontent {
+  animation: fadeEffect 1s;
+}
+
+.button_text {
+	font-size: 20px;
+
+}
+
+@keyframes fadeEffect {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
